@@ -8,8 +8,8 @@ spec:
     - name: hello
       description: Hello
       image:
-        url: debian
-        version: slim
+        url: alpine
+        version: "3.7"
       command: "/bin/sh"
       args:
         - "-c"
@@ -19,8 +19,8 @@ spec:
     - name: goodbye
       description: Goodbye
       image:
-        url: debian
-        version: slim
+        url: alpine
+        version: "3.7"
       command: "/bin/sh"
       args:
         - "-c"
