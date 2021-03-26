@@ -1,0 +1,10 @@
+apiVersion: repositories.flare.engineering/v1alpha1
+kind: Repository
+metadata:
+  name: hello-repository
+spec:
+  description: Repository for Hello Workd
+  remote:
+    public:
+      url: "https://https://github.com/flare-community/hello-world-content"
+      ref: refs/tags/v1.0.0

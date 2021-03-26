@@ -1,0 +1,27 @@
+apiVersion: plans.flare.engineering/v1alpha1
+kind: Plan
+metadata:
+  name: hello-plan
+spec:
+  description: Plan for Hello World
+  upsert:
+    - name: hello
+      description: Hello
+      image:
+        url: debian
+        version: slim
+      command: "/bin/sh"
+      args:
+        - "-c"
+        - "cat hello.txt"
+      outputs: outputs.json
+  delete:
+    - name: goodbye
+      description: Goodbye
+      image:
+        url: debian
+        version: slim
+      command: "/bin/sh"
+      args:
+        - "-c"
+        - "cat goodbye.txt"
