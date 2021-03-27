@@ -14,8 +14,8 @@ spec:
       args:
         - "-c"
         - |
-        ls
-        cat hello.txt
+          ls
+          cat hello.txt
   delete:
     - name: goodbye
       description: Goodbye
