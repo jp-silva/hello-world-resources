@@ -11,4 +11,4 @@ spec:
   environment:
     name: hello-environment
   inputs:
-    specChanger: "1"
+    specChanger: 1
