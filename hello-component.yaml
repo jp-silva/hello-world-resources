@@ -10,5 +10,3 @@ spec:
     name: hello-plan
   environment:
     name: hello-environment
-  inputs:
-    specChanger: 1
