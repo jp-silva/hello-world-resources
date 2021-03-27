@@ -16,6 +16,7 @@ spec:
         - |
           ls
           cat hello.txt
+          sleep 15
   delete:
     - name: goodbye
       description: Goodbye
