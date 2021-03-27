@@ -13,7 +13,9 @@ spec:
       command: "/bin/sh"
       args:
         - "-c"
-        - "cat hello.txt"
+        - |
+        ls
+        cat hello.txt
   delete:
     - name: goodbye
       description: Goodbye
