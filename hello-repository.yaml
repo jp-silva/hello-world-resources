@@ -7,4 +7,4 @@ spec:
   remote:
     public:
       url: "https://github.com/flare-community/hello-world-content"
-      ref: refs/tags/v1.0.0
+      ref: refs/tags/v1.0.1
